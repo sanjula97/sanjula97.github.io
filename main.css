@@ -1,0 +1,75 @@
+/* get ri of the default padding and the margin */
+
+*{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+
+article,div,header,nav,footer,section{
+	display:block;
+}
+/*centering the website*/
+.container{
+	width:1000px;
+	margin:0px auto;
+}
+.clear{
+	clear:both;
+}
+
+.logo{
+	width:160px;
+	float:left;
+	height:160px;
+}
+
+.top_nav{
+	float:left;
+	width:500px;
+	
+	background-color:#ddccee ;
+	
+}
+
+.search_bar{
+
+	padding:58px ;
+	background-color:#ddccee;
+	height:43px
+	
+}
+
+.top_nav ul li{
+	float:left;
+	padding:58px 30px;
+	
+}
+/* floating page section and the aside to th left(it make both of them apear each other)*/
+
+.left_side{
+	float:left;
+	width:794px;
+		
+}
+
+.left_side article header h1{
+	font-family:Britannic Bold;
+	font-weight:bold;
+	font-size:45px;
+	text-align:center;
+}
+
+
+.right_side{
+	float:left;
+	width:200px;
+	padding:2px 3px;
+	
+}
+
+.page_footer{
+	clear:both;
+	text-align:center;
+}
+
